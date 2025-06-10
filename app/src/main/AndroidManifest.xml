@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="moe.cyunrei.videolivewallpaper">
+    package="com.erroneoususer.livewallpaper">
 
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -16,7 +16,7 @@
         tools:ignore="MissingApplicationIcon"
         tools:targetApi="m">
         <activity
-            android:name="moe.cyunrei.videolivewallpaper.activity.MainActivity"
+            android:name="com.erroneoususer.livewallpaper.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="moe.cyunrei.videolivewallpaper.activity.SettingsActivity"
+            android:name="com.erroneoususer.livewallpaper.activity.SettingsActivity"
             android:exported="false"
             android:label="@string/settings">
             <intent-filter>
@@ -33,7 +33,7 @@
         </activity>
 
         <service
-            android:name="moe.cyunrei.videolivewallpaper.service.VideoLiveWallpaperService"
+            android:name="com.erroneoususer.livewallpaper.service.VideoLiveWallpaperService"
             android:exported="true"
             android:label="@string/app_name"
             android:permission="android.permission.BIND_WALLPAPER"
@@ -47,7 +47,7 @@
         </service>
 
         <receiver
-            android:name="moe.cyunrei.videolivewallpaper.broadcast.BootBroadCast"
+            android:name="com.erroneoususer.livewallpaper.broadcast.BootBroadCast"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />

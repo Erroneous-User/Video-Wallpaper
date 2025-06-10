@@ -1,4 +1,4 @@
-package moe.cyunrei.videolivewallpaper.utils
+package com.erroneoususer.livewallpaper.utils
 
 import java.io.File
 import java.io.FileInputStream

@@ -1,9 +1,9 @@
-package moe.cyunrei.videolivewallpaper.broadcast
+package com.erroneoususer.livewallpaper.broadcast
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import moe.cyunrei.videolivewallpaper.service.VideoLiveWallpaperService
+import com.erroneoususer.livewallpaper.service.VideoLiveWallpaperService
 
 internal class BootBroadCast : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {

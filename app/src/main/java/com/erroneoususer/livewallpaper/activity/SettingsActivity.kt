@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package moe.cyunrei.videolivewallpaper.activity
+package com.erroneoususer.livewallpaper.activity
 
 import android.content.ComponentName
 import android.content.pm.PackageManager
@@ -9,8 +9,8 @@ import android.os.Bundle
 import android.preference.Preference.OnPreferenceChangeListener
 import android.preference.PreferenceActivity
 import android.preference.SwitchPreference
-import moe.cyunrei.videolivewallpaper.R
-import moe.cyunrei.videolivewallpaper.service.VideoLiveWallpaperService
+import com.erroneoususer.livewallpaper.R
+import com.erroneoususer.livewallpaper.service.VideoLiveWallpaperService
 import java.io.IOException
 
 class SettingsActivity : PreferenceActivity() {
@@ -28,7 +28,7 @@ class SettingsActivity : PreferenceActivity() {
                                 Runtime.getRuntime().exec("rm " + filesDir.toPath() + "/unmute")
                             } else {
                                 Runtime.getRuntime()
-                                    .exec("rm /data/data/moe.cyunrei.videolivewallpaper/files/unmute")
+                                    .exec("rm /data/data/com.erroneoususer.livewallpaper/files/unmute")
                             }
                         } catch (e: IOException) {
                             e.printStackTrace()
@@ -41,7 +41,7 @@ class SettingsActivity : PreferenceActivity() {
                                 Runtime.getRuntime().exec("touch " + filesDir.toPath() + "/unmute")
                             } else {
                                 Runtime.getRuntime()
-                                    .exec("touch /data/data/moe.cyunrei.videolivewallpaper/files/unmute")
+                                    .exec("touch /data/data/com.erroneoususer.livewallpaper/files/unmute")
                             }
                         } catch (e: IOException) {
                             e.printStackTrace()

@@ -1,4 +1,4 @@
-package moe.cyunrei.videolivewallpaper.activity
+package com.erroneoususer.livewallpaper.activity
 
 import android.Manifest
 import android.app.Activity
@@ -14,9 +14,9 @@ import android.widget.EditText
 import androidx.annotation.RequiresApi
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import moe.cyunrei.videolivewallpaper.R
-import moe.cyunrei.videolivewallpaper.service.VideoLiveWallpaperService
-import moe.cyunrei.videolivewallpaper.utils.DocumentUtils.getPath
+import com.erroneoususer.livewallpaper.R
+import com.erroneoususer.livewallpaper.service.VideoLiveWallpaperService
+import com.erroneoususer.livewallpaper.utils.DocumentUtils.getPath
 
 
 class MainActivity : Activity() {
