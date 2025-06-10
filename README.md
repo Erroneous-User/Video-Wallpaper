@@ -59,7 +59,7 @@ To build this application from its source code, you'll need Android Studio and a
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/Erroneous-User/Video-Wallpaper-app.git](https://github.com/Erroneous-User/Video-Wallpaper-app.git)
+    git clone https://github.com/Erroneous-User/Video-Wallpaper-app.git
     cd video-live-wallpaper
     ```
 
